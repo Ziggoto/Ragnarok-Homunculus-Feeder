@@ -39,7 +39,7 @@ public class FeedThread extends Thread {
 				
 				//Log (Para controle)
 				Date now = new Date();
-				SimpleDateFormat sdf = new SimpleDateFormat("hh:mm:ss dd/mm/yyyy");
+				SimpleDateFormat sdf = new SimpleDateFormat("hh:mm:ss dd/MM/yyyy");
 				System.out.println("Alimentado às "+sdf.format(now));
 				
 				Thread.sleep(delay);
