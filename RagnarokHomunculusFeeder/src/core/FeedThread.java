@@ -30,7 +30,7 @@ public class FeedThread extends Thread {
 				robot.delay(500);
 				robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 				
-				robot.delay(2000); //2 segundos de delay
+				robot.delay(1000); //1 segundo de delay
 				
 				robot.mouseMove(p2.width, p2.height);
 				robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
