@@ -42,7 +42,7 @@ public class FeedThread extends Thread {
 				SimpleDateFormat sdf = new SimpleDateFormat("hh:mm:ss dd/MM/yyyy");
 				System.out.println("Alimentado às "+sdf.format(now));
 				
-				Thread.sleep(delay);
+				Thread.sleep(delay - 2000); //Tira os 2 segundos que dura a execução
 			}
 		} catch (AWTException e) {
 			e.printStackTrace();
